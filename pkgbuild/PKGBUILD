@@ -1,7 +1,7 @@
 pkgname=bigicons-papient
 pkgdesc="Package icons for biglinux based in Papirus and Fluent"
 depends=('papirus-icon-theme')
-# makedepends=('')
+makedepends=('git')
 # conflicts=('')
 pkgver=$(date +%y.%m.%d)
 pkgrel=$(date +%H%M)
@@ -50,7 +50,9 @@ package() {
     cp -Rf papirus-icon-theme/Papirus/22x22/panel bigicons-papient/22x22/panel
     cp -Rf papirus-icon-theme/Papirus-Dark/22x22/actions bigicons-papient/22x22/actions
     
-    cp -Rf papirus-icon-theme/Papirus/symbolic bigicons-papient/symbolic
+    cp -Rf papirus-icon-theme/Papirus/16x16/symbolic bigicons-papient/symbolic
+    cp -Rf papirus-icon-theme/Papirus/22x22/symbolic bigicons-papient/symbolic
+    #cp -Rf papirus-icon-theme/Papirus/24x24/symbolic bigicons-papient/24x24/symbolic
     
     #bigicons-papient-dark
     cp -Rf papirus-icon-theme/Papirus-Dark/16x16/devices bigicons-papient-dark/16x16/devices
@@ -60,8 +62,10 @@ package() {
     cp -Rf papirus-icon-theme/Papirus/22x22/panel bigicons-papient-dark/22x22/panel
     cp -Rf papirus-icon-theme/Papirus-Dark/22x22/actions bigicons-papient-dark/22x22/actions
     
-    cp -Rf papirus-icon-theme/Papirus/symbolic bigicons-papient-dark/symbolic
-    
+    cp -Rf papirus-icon-theme/Papirus/16x16/symbolic bigicons-papient-dark/symbolic
+    cp -Rf papirus-icon-theme/Papirus/22x22/symbolic bigicons-papient-dark/symbolic
+    #cp -Rf papirus-icon-theme/Papirus/24x24/symbolic bigicons-papient-dark/24x24/symbolic
+
     
     # Kalarm symbolic dark PAPIENT
     cd bigicons-papient-dark/22x22/panel; ln -s alarm-clock-panel.svg kalarm-symbolic.svg
