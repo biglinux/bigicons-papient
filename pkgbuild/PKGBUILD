@@ -106,22 +106,14 @@ package() {
     # Zoom
     cd bigicons-papient
     ln -s 16x16 16x16@2x
-    ln -s 18x18 18x18@2x
     ln -s 22x22 22x22@2x
-    ln -s 24x24 24x24@2x
-    ln -s 32x32 32x32@2x
     ln -s 48x48 48x48@2x
-    ln -s 64x64 64x64@2x
     cd ../
     
     cd bigicons-papient-dark
     ln -s 16x16 16x16@2x
-    ln -s 18x18 18x18@2x
     ln -s 22x22 22x22@2x
-    ln -s 24x24 24x24@2x
-    ln -s 32x32 32x32@2x
     ln -s 48x48 48x48@2x
-    ln -s 64x64 64x64@2x
     cd ../
 
     cp -f papirus-icon-theme/Papirus/16x16/apps/com.github.bajoja.indicator-kdeconnect.svg bigicons-papient/16x16/symbolic/apps/
