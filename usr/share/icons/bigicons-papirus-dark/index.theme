@@ -138,123 +138,167 @@ Type=Fixed
 [22x22/actions]
 Context=Actions
 Size=22
-Type=Fixed
+MinSize=22
+MaxSize=512
+Type=Scalable
 
 [22x22/animations]
 Context=Animations
 Size=22
-Type=Fixed
+MinSize=22
+MaxSize=512
+Type=Scalable
 
 [22x22/apps]
 Context=Applications
 Size=22
-Type=Fixed
+MinSize=22
+MaxSize=512
+Type=Scalable
 
 [22x22/categories]
 Context=Categories
 Size=22
-Type=Fixed
+MinSize=22
+MaxSize=512
+Type=Scalable
 
 [22x22/devices]
 Context=Devices
 Size=22
-Type=Fixed
+MinSize=22
+MaxSize=512
+Type=Scalable
 
 [22x22/emblems]
 Context=Emblems
 Size=22
-Type=Fixed
+MinSize=22
+MaxSize=512
+Type=Scalable
 
 [22x22/emotes]
 Context=Emotes
 Size=22
-Type=Fixed
+MinSize=22
+MaxSize=512
+Type=Scalable
 
 [22x22/mimetypes]
 Context=MimeTypes
 Size=22
-Type=Fixed
+MinSize=22
+MaxSize=512
+Type=Scalable
 
 [22x22/panel]
 Context=Status
 Size=22
-Type=Fixed
+MinSize=22
+MaxSize=512
+Type=Scalable
 
 [22x22/places]
 Context=Places
 Size=22
-Type=Fixed
+MinSize=22
+MaxSize=512
+Type=Scalable
 
 [22x22/status]
 Context=Status
 Size=22
-Type=Fixed
+MinSize=22
+MaxSize=512
+Type=Scalable
 
 [22x22@2x/actions]
 Context=Actions
-Size=22
 Scale=2
-Type=Fixed
+Size=22
+MinSize=22
+MaxSize=512
+Type=Scalable
 
 [22x22@2x/animations]
 Context=Animations
-Size=22
 Scale=2
-Type=Fixed
+Size=22
+MinSize=22
+MaxSize=512
+Type=Scalable
 
 [22x22@2x/apps]
 Context=Applications
-Size=22
 Scale=2
-Type=Fixed
+Size=22
+MinSize=22
+MaxSize=512
+Type=Scalable
 
 [22x22@2x/categories]
 Context=Categories
-Size=22
 Scale=2
-Type=Fixed
+Size=22
+MinSize=22
+MaxSize=512
+Type=Scalable
 
 [22x22@2x/devices]
 Context=Devices
-Size=22
 Scale=2
-Type=Fixed
+Size=22
+MinSize=22
+MaxSize=512
+Type=Scalable
 
 [22x22@2x/emblems]
 Context=Emblems
-Size=22
 Scale=2
-Type=Fixed
+Size=22
+MinSize=22
+MaxSize=512
+Type=Scalable
 
 [22x22@2x/emotes]
 Context=Emotes
-Size=22
 Scale=2
-Type=Fixed
+Size=22
+MinSize=22
+MaxSize=512
+Type=Scalable
 
 [22x22@2x/mimetypes]
 Context=MimeTypes
-Size=22
 Scale=2
-Type=Fixed
+Size=22
+MinSize=22
+MaxSize=512
+Type=Scalable
 
 [22x22@2x/panel]
 Context=Status
-Size=22
 Scale=2
-Type=Fixed
+Size=22
+MinSize=22
+MaxSize=512
+Type=Scalable
 
 [22x22@2x/places]
 Context=Places
-Size=22
 Scale=2
-Type=Fixed
+Size=22
+MinSize=22
+MaxSize=512
+Type=Scalable
 
 [22x22@2x/status]
 Context=Status
-Size=22
 Scale=2
-Type=Fixed
+Size=22
+MinSize=22
+MaxSize=512
+Type=Scalable
 
 [48x48/actions]
 Context=Actions
@@ -394,7 +438,9 @@ Type=Scalable
 [16x16/symbolic/actions]
 Context=Actions
 Size=16
-Type=Fixed
+MinSize=8
+MaxSize=512
+Type=Scalable
 
 [16x16/symbolic/apps]
 Context=Applications
@@ -445,9 +491,11 @@ Type=Scalable
 
 [16x16@2x/symbolic/actions]
 Context=Actions
-Size=16
 Scale=2
-Type=Fixed
+Size=16
+MinSize=8
+MaxSize=512
+Type=Scalable
 
 [16x16@2x/symbolic/apps]
 Context=Applications
@@ -498,81 +546,108 @@ Scale=2
 Type=Fixed
 
 [22x22/symbolic/actions]
-Context=Actions
 Size=22
-Type=Fixed
+MinSize=22
+MaxSize=512
+Type=Scalable
 
 [22x22/symbolic/apps]
 Context=Applications
 Size=22
-Type=Fixed
+MinSize=22
+MaxSize=512
+Type=Scalable
 
 [22x22/symbolic/categories]
 Context=Categories
 Size=22
-Type=Fixed
+MinSize=22
+MaxSize=512
+Type=Scalable
 
 [22x22/symbolic/devices]
 Context=Devices
 Size=22
-Type=Fixed
+MinSize=22
+MaxSize=512
+Type=Scalable
 
 [22x22/symbolic/mimetypes]
 Context=MimeTypes
 Size=22
-Type=Fixed
+MinSize=22
+MaxSize=512
+Type=Scalable
 
 [22x22/symbolic/places]
 Context=Places
 Size=22
-Type=Fixed
+MinSize=22
+MaxSize=512
+Type=Scalable
 
 [22x22/symbolic/status]
 Context=Status
 Size=22
-Type=Fixed
+MinSize=22
+MaxSize=512
+Type=Scalable
 
 [22x22@2x/symbolic/actions]
 Context=Actions
 Size=22
 Scale=2
-Type=Fixed
+MinSize=22
+MaxSize=512
+Type=Scalable
 
 [22x22@2x/symbolic/apps]
 Context=Applications
 Size=22
 Scale=2
-Type=Fixed
+MinSize=22
+MaxSize=512
+Type=Scalable
 
 [22x22@2x/symbolic/categories]
 Context=Categories
 Size=22
 Scale=2
-Type=Fixed
+MinSize=22
+MaxSize=512
+Type=Scalable
 
 [22x22@2x/symbolic/devices]
 Context=Devices
 Size=22
 Scale=2
-Type=Fixed
+MinSize=22
+MaxSize=512
+Type=Scalable
 
 [22x22@2x/symbolic/mimetypes]
 Context=MimeTypes
 Size=22
 Scale=2
-Type=Fixed
+MinSize=22
+MaxSize=512
+Type=Scalable
 
 [22x22@2x/symbolic/places]
 Context=Places
 Size=22
 Scale=2
-Type=Fixed
+MinSize=22
+MaxSize=512
+Type=Scalable
 
 [22x22@2x/symbolic/status]
 Context=Status
 Size=22
 Scale=2
-Type=Fixed
+MinSize=22
+MaxSize=512
+Type=Scalable
 
 # Scalable
 [scalable/actions]
@@ -655,5 +730,13 @@ Context=MimeTypes
 Size=48
 Scale=2
 MinSize=28
+MaxSize=512
+Type=Scalable
+
+[scalable@2x/symbolic]
+Context=MimeTypes
+Size=22
+Scale=2
+MinSize=22
 MaxSize=512
 Type=Scalable
