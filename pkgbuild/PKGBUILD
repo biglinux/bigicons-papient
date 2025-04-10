@@ -1,8 +1,5 @@
 pkgname=bigicons-papient
-pkgdesc="Package icons for biglinux based in Papirus and Fluent"
-depends=('papirus-icon-theme')
-# makedepends=('')
-# conflicts=('')
+pkgdesc="Package icons for biglinux based in Papirus"
 pkgver=$(date +%y.%m.%d)
 pkgrel=$(date +%H%M)
 arch=('any')
@@ -42,68 +39,19 @@ package() {
     cd "${pkgdir}/usr/share/icons/"
     git clone https://github.com/PapirusDevelopmentTeam/papirus-icon-theme.git
     
+    # Copy icons
+    cp -Rf papirus-icon-theme/Papirus/16x16 bigicons-papient/
+    cp -Rf papirus-icon-theme/Papirus/22x22 bigicons-papient/
+    cp -Rf papirus-icon-theme/Papirus/48x48 bigicons-papient/
 
-    # bigicons-papient symbolic icons
-    cp -Rf papirus-icon-theme/Papirus/16x16/devices bigicons-papient/16x16/devices
-    cp -Rf papirus-icon-theme/Papirus/16x16/panel/* bigicons-papient/16x16/panel/
-    cp -Rf papirus-icon-theme/Papirus/16x16/actions bigicons-papient/16x16/actions
-    cp -Rf papirus-icon-theme/Papirus/16x16/places bigicons-papient/16x16/places
-    cp -Rf papirus-icon-theme/Papirus/22x22/devices bigicons-papient/22x22/devices
-    cp -Rf papirus-icon-theme/Papirus/22x22/panel/* bigicons-papient/22x22/panel/
-    cp -Rf papirus-icon-theme/Papirus/22x22/actions bigicons-papient/22x22/actions
-    cp -Rf papirus-icon-theme/Papirus/22x22/places bigicons-papient/22x22/places
-    
-    mkdir -p bigicons-papient/16x16/symbolic
-    mkdir -p bigicons-papient/22x22/symbolic
+    cp -Rf papirus-icon-theme/Papirus-Dark/16x16 bigicons-papient-dark/
+    cp -Rf papirus-icon-theme/Papirus-Dark/22x22 bigicons-papient-dark/
+    # Not symbolic links share with not dark theme
+    cd bigicons-papient-dark
+    ln -s ../bigicons-papient/48x48 48x48
+    cd ..    
 
-    cp -Rf papirus-icon-theme/Papirus/16x16/symbolic/actions/ bigicons-papient/16x16/symbolic/actions
-    cp -Rf papirus-icon-theme/Papirus/16x16/symbolic/apps/ bigicons-papient/16x16/symbolic/apps
-    cp -Rf papirus-icon-theme/Papirus/16x16/symbolic/categories/ bigicons-papient/16x16/symbolic/categories
-    cp -Rf papirus-icon-theme/Papirus/16x16/symbolic/devices/ bigicons-papient/16x16/symbolic/devices
-    cp -Rf papirus-icon-theme/Papirus/16x16/symbolic/emblems/ bigicons-papient/16x16/symbolic/emblems
-    cp -Rf papirus-icon-theme/Papirus/16x16/symbolic/emotes/ bigicons-papient/16x16/symbolic/emotes
-    cp -Rf papirus-icon-theme/Papirus/16x16/symbolic/mimetypes/ bigicons-papient/16x16/symbolic/mimetypes
-    cp -Rf papirus-icon-theme/Papirus/16x16/symbolic/places/ bigicons-papient/16x16/symbolic/places
-    cp -Rf papirus-icon-theme/Papirus/16x16/symbolic/status/ bigicons-papient/16x16/symbolic/status
-    cp -Rf papirus-icon-theme/Papirus/16x16/symbolic/up-to-32/ bigicons-papient/16x16/symbolic/up-to-32
-    cp -Rf papirus-icon-theme/Papirus/22x22/symbolic/actions/ bigicons-papient/22x22/symbolic/actions
-    cp -Rf papirus-icon-theme/Papirus/22x22/symbolic/apps/ bigicons-papient/22x22/symbolic/apps
-    cp -Rf papirus-icon-theme/Papirus/22x22/symbolic/categories/ bigicons-papient/22x22/symbolic/categories
-    cp -Rf papirus-icon-theme/Papirus/22x22/symbolic/devices/ bigicons-papient/22x22/symbolic/devices
-    cp -Rf papirus-icon-theme/Papirus/22x22/symbolic/mimetypes/ bigicons-papient/22x22/symbolic/mimetypes
-    cp -Rf papirus-icon-theme/Papirus/22x22/symbolic/places/ bigicons-papient/22x22/symbolic/places
-    cp -Rf papirus-icon-theme/Papirus/22x22/symbolic/status/ bigicons-papient/22x22/symbolic/status
-    
-    #bigicons-papient-dark
-    cp -Rf papirus-icon-theme/Papirus-Dark/16x16/panel/* bigicons-papient-dark/16x16/panel/
-    cp -Rf papirus-icon-theme/Papirus-Dark/16x16/actions bigicons-papient-dark/16x16/actions
-    cp -Rf papirus-icon-theme/Papirus-Dark/16x16/places bigicons-papient-dark/16x16/places
-    cp -Rf papirus-icon-theme/Papirus-Dark/22x22/panel/* bigicons-papient-dark/22x22/panel/
-    cp -Rf papirus-icon-theme/Papirus-Dark/22x22/actions bigicons-papient-dark/22x22/actions
-    cp -Rf papirus-icon-theme/Papirus-Dark/22x22/places bigicons-papient-dark/22x22/places
-
-    mkdir -p bigicons-papient-dark/16x16/symbolic
-    mkdir -p bigicons-papient-dark/22x22/symbolic
-
-    cp -Rf papirus-icon-theme/Papirus-Dark/16x16/symbolic/actions/ bigicons-papient-dark/16x16/symbolic/actions
-    cp -Rf papirus-icon-theme/Papirus-Dark/16x16/symbolic/apps/ bigicons-papient-dark/16x16/symbolic/apps
-    cp -Rf papirus-icon-theme/Papirus-Dark/16x16/symbolic/categories/ bigicons-papient-dark/16x16/symbolic/categories
-    cp -Rf papirus-icon-theme/Papirus-Dark/16x16/symbolic/devices/ bigicons-papient-dark/16x16/symbolic/devices
-    cp -Rf papirus-icon-theme/Papirus-Dark/16x16/symbolic/emblems/ bigicons-papient-dark/16x16/symbolic/emblems
-    cp -Rf papirus-icon-theme/Papirus-Dark/16x16/symbolic/emotes/ bigicons-papient-dark/16x16/symbolic/emotes
-    cp -Rf papirus-icon-theme/Papirus-Dark/16x16/symbolic/mimetypes/ bigicons-papient-dark/16x16/symbolic/mimetypes
-    cp -Rf papirus-icon-theme/Papirus-Dark/16x16/symbolic/places/ bigicons-papient-dark/16x16/symbolic/places
-    cp -Rf papirus-icon-theme/Papirus-Dark/16x16/symbolic/status/ bigicons-papient-dark/16x16/symbolic/status
-    cp -Rf papirus-icon-theme/Papirus-Dark/16x16/symbolic/up-to-32/ bigicons-papient-dark/16x16/symbolic/up-to-32
-    cp -Rf papirus-icon-theme/Papirus-Dark/22x22/symbolic/actions/ bigicons-papient-dark/22x22/symbolic/actions
-    cp -Rf papirus-icon-theme/Papirus-Dark/22x22/symbolic/apps/ bigicons-papient-dark/22x22/symbolic/apps
-    cp -Rf papirus-icon-theme/Papirus-Dark/22x22/symbolic/categories/ bigicons-papient-dark/22x22/symbolic/categories
-    cp -Rf papirus-icon-theme/Papirus-Dark/22x22/symbolic/devices/ bigicons-papient-dark/22x22/symbolic/devices
-    cp -Rf papirus-icon-theme/Papirus-Dark/22x22/symbolic/mimetypes/ bigicons-papient-dark/22x22/symbolic/mimetypes
-    cp -Rf papirus-icon-theme/Papirus-Dark/22x22/symbolic/places/ bigicons-papient-dark/22x22/symbolic/places
-    cp -Rf papirus-icon-theme/Papirus-Dark/22x22/symbolic/status/ bigicons-papient-dark/22x22/symbolic/status
-    
-    # Zoom
+    # Use on scaled screen
     cd bigicons-papient
     ln -s 16x16 16x16@2x
     ln -s 22x22 22x22@2x
@@ -116,25 +64,27 @@ package() {
     ln -s 48x48 48x48@2x
     cd ../
 
-    cp -f papirus-icon-theme/Papirus/16x16/apps/com.github.bajoja.indicator-kdeconnect.svg bigicons-papient/16x16/symbolic/apps/
-    cp -f papirus-icon-theme/Papirus/16x16/apps/kdeconnect.svg bigicons-papient/16x16/symbolic/apps/kdeconnect.svg
+    
+#     cp -f papirus-icon-theme/Papirus/16x16/apps/com.github.bajoja.indicator-kdeconnect.svg bigicons-papient/16x16/symbolic/apps/
+#     cp -f papirus-icon-theme/Papirus/16x16/apps/kdeconnect.svg bigicons-papient/16x16/symbolic/apps/kdeconnect.svg
 
-#     # Kalarm symbolic dark PAPIENT
-    cd bigicons-papient-dark/16x16/panel; ln -s alarm-clock-panel.svg kalarm-symbolic.svg
-    cd ../../../
-# 
-#     # Kalarm symbolic PAPIENT
-    cd bigicons-papient/16x16/panel; ln -s alarm-clock-panel.svg kalarm-symbolic.svg
-    cd ../../../
-# 
-#     # manjaro-settings-manager.svg symbolic dark PAPIENT
-    cd bigicons-papient-dark/16x16/panel; ln -s manjaro-settings-manager-panel.svg manjaro-settings-manager.svg
-    cd ../../../
-# 
-#     # manjaro-settings-manager.svg symbolic PAPIENT
-    cd bigicons-papient/16x16/panel; ln -s manjaro-settings-manager-panel.svg manjaro-settings-manager.svg
-    cd ../../../
+# #     # Kalarm symbolic dark PAPIENT
+#     cd bigicons-papient-dark/16x16/panel; ln -s alarm-clock-panel.svg kalarm-symbolic.svg
+#     cd ../../../
+# # 
+# #     # Kalarm symbolic PAPIENT
+#     cd bigicons-papient/16x16/panel; ln -s alarm-clock-panel.svg kalarm-symbolic.svg
+#     cd ../../../
+# # 
+# #     # manjaro-settings-manager.svg symbolic dark PAPIENT
+#     cd bigicons-papient-dark/16x16/panel; ln -s manjaro-settings-manager-panel.svg manjaro-settings-manager.svg
+#     cd ../../../
+# # 
+# #     # manjaro-settings-manager.svg symbolic PAPIENT
+#     cd bigicons-papient/16x16/panel; ln -s manjaro-settings-manager-panel.svg manjaro-settings-manager.svg
+#     cd ../../../
 
+    # Fix menu icon used on dolphin and others
     cd bigicons-papient/16x16/actions
     ln -sf view-media-playlist.svg open-menu.svg
     ln -sf view-media-playlist.svg open-menu-symbolic.svg
@@ -146,11 +96,4 @@ package() {
     cd ../../../
 
     rm -R papirus-icon-theme
-
-    # Force color in dark icons ignoring scalable folder
-#     find bigicons-papient-dark -type d -name scalable -prune -o -type f -name "*.svg" ! -type l -exec sed -i 's/color:#dfdfdf/color:#b0b0b0/g;s/color:#444444/color:#b0b0b0/g;s/color:#888888/color:#b0b0b0/g;s/color:#606060/color:#b0b0b0/g;s/fill:#444444/fill:#b0b0b0/g;s/current-color-scheme/currentColor/g' {} +
-
-    # Force color
-#     find bigicons-papient -type d -name scalable -prune -o -type f -name "*.svg" ! -type l -exec sed -i 's/color:#dfdfdf/color:#606060/g;s/color:#444444/color:#606060/g;s/color:#888888/color:#606060/g;s/current-color-scheme/currentColor/g' {} +
-
 }
