@@ -135,12 +135,22 @@ package() {
     cd bigicons-papient/16x16/panel; ln -s manjaro-settings-manager-panel.svg manjaro-settings-manager.svg
     cd ../../../
 
+    cd bigicons-papient/16x16/actions
+    ln -sf view-media-playlist.svg open-menu.svg
+    ln -sf view-media-playlist.svg open-menu-symbolic.svg
+    cd ../../../
+
+    cd bigicons-papient-dark/16x16/actions
+    ln -sf view-media-playlist.svg open-menu.svg
+    ln -sf view-media-playlist.svg open-menu-symbolic.svg
+    cd ../../../
+
     rm -R papirus-icon-theme
 
     # Force color in dark icons ignoring scalable folder
-    find bigicons-papient-dark -type d -name scalable -prune -o -type f -name "*.svg" ! -type l -exec sed -i 's/color:#dfdfdf/color:#b0b0b0/g;s/color:#444444/color:#b0b0b0/g;s/color:#888888/color:#b0b0b0/g;s/color:#606060/color:#b0b0b0/g;s/fill:#444444/fill:#b0b0b0/g;s/current-color-scheme/currentColor/g' {} +
+#     find bigicons-papient-dark -type d -name scalable -prune -o -type f -name "*.svg" ! -type l -exec sed -i 's/color:#dfdfdf/color:#b0b0b0/g;s/color:#444444/color:#b0b0b0/g;s/color:#888888/color:#b0b0b0/g;s/color:#606060/color:#b0b0b0/g;s/fill:#444444/fill:#b0b0b0/g;s/current-color-scheme/currentColor/g' {} +
 
     # Force color
-    find bigicons-papient -type d -name scalable -prune -o -type f -name "*.svg" ! -type l -exec sed -i 's/color:#dfdfdf/color:#606060/g;s/color:#444444/color:#606060/g;s/color:#888888/color:#606060/g;s/current-color-scheme/currentColor/g' {} +
+#     find bigicons-papient -type d -name scalable -prune -o -type f -name "*.svg" ! -type l -exec sed -i 's/color:#dfdfdf/color:#606060/g;s/color:#444444/color:#606060/g;s/color:#888888/color:#606060/g;s/current-color-scheme/currentColor/g' {} +
 
 }
