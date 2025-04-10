@@ -259,42 +259,58 @@ Type=Fixed
 [48x48/actions]
 Context=Actions
 Size=48
-Type=Fixed
+MinSize=28
+MaxSize=512
+Type=Scalable
 
 [48x48/apps]
 Context=Applications
 Size=48
-Type=Fixed
+MinSize=28
+MaxSize=512
+Type=Scalable
 
 [48x48/categories]
 Context=Categories
 Size=48
-Type=Fixed
+MinSize=28
+MaxSize=512
+Type=Scalable
 
 [48x48/devices]
 Context=Devices
 Size=48
-Type=Fixed
+MinSize=28
+MaxSize=512
+Type=Scalable
 
 [48x48/emblems]
 Context=Emblems
 Size=48
-Type=Fixed
+MinSize=28
+MaxSize=512
+Type=Scalable
 
 [48x48/emotes]
 Context=Emotes
 Size=48
-Type=Fixed
+MinSize=28
+MaxSize=512
+Type=Scalable
 
 [48x48/mimetypes]
 Context=MimeTypes
 Size=48
-Type=Fixed
+MinSize=28
+MaxSize=512
+Type=Scalable
 
 [48x48/places]
 Context=Places
 Size=48
-Type=Fixed
+MinSize=28
+MaxSize=512
+Type=Scalable
 
 [48x48/status]
 Context=Status
@@ -307,56 +323,72 @@ Type=Scalable
 Context=Actions
 Size=48
 Scale=2
-Type=Fixed
+MinSize=28
+MaxSize=512
+Type=Scalable
 
 [48x48@2x/apps]
 Context=Applications
 Size=48
 Scale=2
-Type=Fixed
+MinSize=28
+MaxSize=512
+Type=Scalable
 
 [48x48@2x/categories]
 Context=Categories
 Size=48
 Scale=2
-Type=Fixed
+MinSize=28
+MaxSize=512
+Type=Scalable
 
 [48x48@2x/devices]
 Context=Devices
 Size=48
 Scale=2
-Type=Fixed
+MinSize=28
+MaxSize=512
+Type=Scalable
 
 [48x48@2x/emblems]
 Context=Emblems
 Size=48
 Scale=2
-Type=Fixed
+MinSize=28
+MaxSize=512
+Type=Scalable
 
 [48x48@2x/emotes]
 Context=Emotes
 Size=48
 Scale=2
-Type=Fixed
+MinSize=28
+MaxSize=512
+Type=Scalable
 
 [48x48@2x/mimetypes]
 Context=MimeTypes
 Size=48
 Scale=2
-Type=Fixed
+MinSize=28
+MaxSize=512
+Type=Scalable
 
 [48x48@2x/places]
 Context=Places
 Size=48
 Scale=2
-Type=Fixed
+MinSize=28
+MaxSize=512
+Type=Scalable
 
 [48x48@2x/status]
 Context=Status
 Size=48
-MinSize=48
-MaxSize=512
 Scale=2
+MinSize=28
+MaxSize=512
 Type=Scalable
 
 [16x16/symbolic/actions]
@@ -589,6 +621,7 @@ Type=Scalable
 [scalable@2x/actions]
 Context=Actions
 Size=48
+Scale=2
 MinSize=28
 MaxSize=512
 Type=Scalable
@@ -596,6 +629,7 @@ Type=Scalable
 [scalable@2x/apps]
 Context=Applications
 Size=48
+Scale=2
 MinSize=28
 MaxSize=512
 Type=Scalable
@@ -603,6 +637,7 @@ Type=Scalable
 [scalable@2x/devices]
 Context=Devices
 Size=48
+Scale=2
 MinSize=28
 MaxSize=512
 Type=Scalable
@@ -610,6 +645,7 @@ Type=Scalable
 [scalable@2x/places]
 Context=Places
 Size=48
+Scale=2
 MinSize=28
 MaxSize=512
 Type=Scalable
@@ -617,6 +653,7 @@ Type=Scalable
 [scalable@2x/mimetypes]
 Context=MimeTypes
 Size=48
+Scale=2
 MinSize=28
 MaxSize=512
 Type=Scalable
