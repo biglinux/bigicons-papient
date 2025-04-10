@@ -1,6 +1,6 @@
 [Icon Theme]
 Name=bigicons-papient
-Comment=Papirus theme using gray symbolic icons complemented by Big icons
+Comment=Modification of the Papirus theme with fewer size variations, replacement of the mimetypes, and replacement of the icons for some additional programs.
 Inherits=breeze,Adwaita
 
 Example=folder

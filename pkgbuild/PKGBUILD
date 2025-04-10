@@ -60,7 +60,17 @@ package() {
     
     cd bigicons-papient-dark
     ln -s 16x16 16x16@2x
+    cd 16x16
+    rm symbolic
+    ln -s ../../bigicons-papient/16x16/symbolic/ .
+    cd ..
+    
     ln -s 22x22 22x22@2x
+    cd 22x22
+    rm symbolic
+    ln -s ../../bigicons-papient/22x22/symbolic/ .
+    cd ..
+
     ln -s 48x48 48x48@2x
     cd ../
 
