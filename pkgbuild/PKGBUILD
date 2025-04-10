@@ -49,7 +49,7 @@ package() {
     cp -Rf papirus-icon-theme/Papirus/16x16/actions bigicons-papient/16x16/actions
     cp -Rf papirus-icon-theme/Papirus/16x16/places bigicons-papient/16x16/places
     cp -Rf papirus-icon-theme/Papirus/22x22/devices bigicons-papient/22x22/devices
-    cp -Rf papirus-icon-theme/Papirus/22x22/panel bigicons-papient/22x22/panel
+    cp -Rf papirus-icon-theme/Papirus/22x22/panel/* bigicons-papient/22x22/panel/
     cp -Rf papirus-icon-theme/Papirus/22x22/actions bigicons-papient/22x22/actions
     cp -Rf papirus-icon-theme/Papirus/22x22/places bigicons-papient/22x22/places
     
@@ -78,7 +78,7 @@ package() {
     cp -Rf papirus-icon-theme/Papirus-Dark/16x16/panel/* bigicons-papient-dark/16x16/panel/
     cp -Rf papirus-icon-theme/Papirus-Dark/16x16/actions bigicons-papient-dark/16x16/actions
     cp -Rf papirus-icon-theme/Papirus-Dark/16x16/places bigicons-papient-dark/16x16/places
-    cp -Rf papirus-icon-theme/Papirus-Dark/22x22/panel bigicons-papient-dark/22x22/panel
+    cp -Rf papirus-icon-theme/Papirus-Dark/22x22/panel/* bigicons-papient-dark/22x22/panel/
     cp -Rf papirus-icon-theme/Papirus-Dark/22x22/actions bigicons-papient-dark/22x22/actions
     cp -Rf papirus-icon-theme/Papirus-Dark/22x22/places bigicons-papient-dark/22x22/places
 
