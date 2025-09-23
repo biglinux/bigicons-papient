@@ -135,6 +135,12 @@ Size=16
 Scale=2
 Type=Fixed
 
+[16x16@2x/symbolic/up-to-32]
+Context=Status
+Size=16
+Scale=2
+Type=Fixed
+
 [22x22/actions]
 Context=Actions
 Size=22
