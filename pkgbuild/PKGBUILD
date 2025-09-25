@@ -46,8 +46,30 @@ package() {
 
     cp -Rf papirus-icon-theme/Papirus-Dark/16x16 bigicons-papient-dark/
     cp -Rf papirus-icon-theme/Papirus-Dark/22x22 bigicons-papient-dark/
+    
     # Not symbolic links share with not dark theme
     cd bigicons-papient-dark
+    cd 16x16
+    rm apps categories emblems emotes mimetypes panel status
+    ln -s ../../bigicons-papient/16x16/apps apps 
+    ln -s ../../bigicons-papient/16x16/apps categories
+    ln -s ../../bigicons-papient/16x16/apps emblems
+    ln -s ../../bigicons-papient/16x16/apps emotes
+    ln -s ../../bigicons-papient/16x16/apps mimetypes
+    ln -s ../../bigicons-papient/16x16/apps panel
+    ln -s ../../bigicons-papient/16x16/apps status
+
+    cd ../22x22
+    rm apps categories emblems emotes mimetypes panel status
+    ln -s ../../bigicons-papient/22x22/apps apps
+    ln -s ../../bigicons-papient/22x22/apps categories
+    ln -s ../../bigicons-papient/22x22/apps emblems
+    ln -s ../../bigicons-papient/22x22/apps emotes
+    ln -s ../../bigicons-papient/22x22/apps mimetypes
+    ln -s ../../bigicons-papient/22x22/apps panel
+    ln -s ../../bigicons-papient/22x22/apps status
+
+    cd ..
     ln -s ../bigicons-papient/48x48 48x48
     cd ..    
 
