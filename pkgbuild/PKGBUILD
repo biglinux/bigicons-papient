@@ -46,6 +46,7 @@ package() {
 
     cp -Rf papirus-icon-theme/Papirus-Dark/16x16 bigicons-papient-dark/
     cp -Rf papirus-icon-theme/Papirus-Dark/22x22 bigicons-papient-dark/
+    cp -Rf papirus-icon-theme/Papirus-Dark/22x22/ bigicons-papient-dark/22x22/
     
     # Not symbolic links share with not dark theme
     cd bigicons-papient-dark
@@ -60,14 +61,17 @@ package() {
     ln -s ../../bigicons-papient/16x16/apps status
 
     cd ../22x22
-    rm apps categories emblems emotes mimetypes panel status
+    rm animations devices places apps categories emblems emotes mimetypes panel status
     ln -s ../../bigicons-papient/22x22/apps apps
-    ln -s ../../bigicons-papient/22x22/apps categories
-    ln -s ../../bigicons-papient/22x22/apps emblems
-    ln -s ../../bigicons-papient/22x22/apps emotes
-    ln -s ../../bigicons-papient/22x22/apps mimetypes
-    ln -s ../../bigicons-papient/22x22/apps panel
-    ln -s ../../bigicons-papient/22x22/apps status
+    ln -s ../../bigicons-papient/22x22/categories categories
+    ln -s ../../bigicons-papient/22x22/emblems emblems
+    ln -s ../../bigicons-papient/22x22/emotes emotes
+    ln -s ../../bigicons-papient/22x22/mimetypes mimetypes
+    ln -s ../../bigicons-papient/22x22/panel panel
+    ln -s ../../bigicons-papient/22x22/status status
+    ln -s ../../bigicons-papient/22x22/animations animations
+    ln -s ../../bigicons-papient/22x22/devices devices
+    ln -s ../../bigicons-papient/22x22/places places
 
     cd ..
     ln -s ../bigicons-papient/48x48 48x48
