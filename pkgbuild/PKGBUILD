@@ -53,12 +53,12 @@ package() {
     cd 16x16
     rm apps categories emblems emotes mimetypes panel status
     ln -s ../../bigicons-papient/16x16/apps apps 
-    ln -s ../../bigicons-papient/16x16/apps categories
-    ln -s ../../bigicons-papient/16x16/apps emblems
-    ln -s ../../bigicons-papient/16x16/apps emotes
-    ln -s ../../bigicons-papient/16x16/apps mimetypes
-    ln -s ../../bigicons-papient/16x16/apps panel
-    ln -s ../../bigicons-papient/16x16/apps status
+    ln -s ../../bigicons-papient/16x16/categories categories
+    ln -s ../../bigicons-papient/16x16/emblems emblems
+    ln -s ../../bigicons-papient/16x16/emotes emotes
+    ln -s ../../bigicons-papient/16x16/mimetypes mimetypes
+    ln -s ../../bigicons-papient/16x16/panel panel
+    ln -s ../../bigicons-papient/16x16/status status
 
     cd ../22x22
     rm animations devices places apps categories emblems emotes mimetypes panel status
