@@ -46,12 +46,10 @@ package() {
 
     cp -Rf papirus-icon-theme/Papirus-Dark/16x16 bigicons-papient-dark/
     cp -Rf papirus-icon-theme/Papirus-Dark/22x22 bigicons-papient-dark/
-    cp -Rf papirus-icon-theme/Papirus-Dark/22x22/ bigicons-papient-dark/22x22/
-
+ 
     cp -Rf papirus-icon-theme/Papirus-Light/16x16 bigicons-papient-light/
-    cp -Rf papirus-icon-theme/Papirus-Light/22x22 bigicons-papient-light/
-    cp -Rf papirus-icon-theme/Papirus-Light/22x22/ bigicons-papient-light/22x22/
-
+#    cp -Rf papirus-icon-theme/Papirus-Light/22x22 bigicons-papient-light/
+#
     
     # Not symbolic links share with not DARK theme
     cd bigicons-papient-dark
@@ -80,20 +78,26 @@ package() {
     ln -s ../bigicons-papient/48x48 48x48
     cd ..
 
-
+    
     # Not symbolic links share with not LIGHT theme
     cd bigicons-papient-light
     cd 16x16
-    rm apps categories emblems emotes mimetypes panel status
+    rm -Rf apps categories emblems emotes mimetypes panel status actions devices places symbolic 
     ln -s ../../bigicons-papient/16x16/apps apps 
     ln -s ../../bigicons-papient/16x16/categories categories
     ln -s ../../bigicons-papient/16x16/emblems emblems
     ln -s ../../bigicons-papient/16x16/emotes emotes
     ln -s ../../bigicons-papient/16x16/mimetypes mimetypes
     ln -s ../../bigicons-papient/16x16/panel panel
+    ln -s ../../bigicons-papient/16x16/actions actions
     ln -s ../../bigicons-papient/16x16/status status
+    ln -s ../../bigicons-papient/16x16/devices devices
+    ln -s ../../bigicons-papient/16x16/places places
+    ln -s ../../bigicons-papient/16x16/symbolic symbolic
+
     cd ../22x22
-    rm animations devices places apps categories emblems emotes mimetypes panel status
+    rm -Rf animations devices places apps categories emblems emotes mimetypes panel status
+    ln -s ../../bigicons-papient/22x22/actions actions
     ln -s ../../bigicons-papient/22x22/apps apps
     ln -s ../../bigicons-papient/22x22/categories categories
     ln -s ../../bigicons-papient/22x22/emblems emblems
@@ -104,9 +108,16 @@ package() {
     ln -s ../../bigicons-papient/22x22/animations animations
     ln -s ../../bigicons-papient/22x22/devices devices
     ln -s ../../bigicons-papient/22x22/places places
+    ln -s ../../bigicons-papient/22x22/symbolic symbolic
     cd ..
     ln -s ../bigicons-papient/48x48 48x48
-    cd ..    
+    cd ..
+    # Change to hardcode light icons
+    rm -Rf bigicons-papient-light/16x16/panel bigicons-papient-light/22x22/panel bigicons-papient-light/22x22/animations
+    cp -Rf papirus-icon-theme/Papirus-Light/16x16/panel bigicons-papient-light/16x16/panel
+    cp -Rf papirus-icon-theme/Papirus-Light/22x22/panel bigicons-papient-light/22x22/panel
+    cp -Rf papirus-icon-theme/Papirus-Light/22x22/animations bigicons-papient-light/22x22/animations
+
     
     # Use on scaled screen
     cd bigicons-papient
@@ -134,15 +145,7 @@ package() {
     # LIGHT
     cd bigicons-papient-light
     ln -s 16x16 16x16@2x
-    cd 16x16
-    rm symbolic
-    ln -s ../../bigicons-papient/16x16/symbolic/ .
-    cd ..
     ln -s 22x22 22x22@2x
-    cd 22x22
-    rm symbolic
-    ln -s ../../bigicons-papient/22x22/symbolic/ .
-    cd ..
     ln -s 48x48 48x48@2x
     cd ../
     
@@ -178,10 +181,10 @@ package() {
     cd ../../../
     
     # LIGHT
-    cd bigicons-papient-light/16x16/actions
-    ln -sf view-media-playlist.svg open-menu.svg
-    ln -sf view-media-playlist.svg open-menu-symbolic.svg
-    cd ../../../
+    #cd bigicons-papient-light/16x16/actions
+    #ln -sf view-media-playlist.svg open-menu.svg
+    #ln -sf view-media-playlist.svg open-menu-symbolic.svg
+    #cd ../../../
 
 
     rm -R papirus-icon-theme
