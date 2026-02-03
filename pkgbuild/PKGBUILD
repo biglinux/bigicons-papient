@@ -95,6 +95,7 @@ package() {
     ln -s ../../bigicons-papient/16x16/places places
     ln -s ../../bigicons-papient/16x16/symbolic symbolic
 
+    mkdir ../22x22
     cd ../22x22
     rm -Rf animations devices places apps categories emblems emotes mimetypes panel status
     ln -s ../../bigicons-papient/22x22/actions actions
