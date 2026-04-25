@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="24" height="24" fill="none" version="1.1" xmlns="http://www.w3.org/2000/svg">
+<svg viewBox="0 0 24 24" width="512" height="512" fill="none" version="1.1" xmlns="http://www.w3.org/2000/svg">
  <rect x="1" y="1" width="22" height="22" rx="6.6" fill="url(#a)" opacity=".9" stroke="gray" stroke-opacity=".2" vector-effect="non-scaling-stroke" style="-inkscape-stroke:hairline"/>
  <path d="m15.035 18.437 1.1182-1.2292a0.42563 0.46788 0 0 0 0-0.67063 0.42563 0.46788 0 0 0-0.61008 0l-1.273 1.3994a5.0303 5.5295 0 0 0-2.2701-0.59548c-0.82548 0-1.5994 0.21693-2.2868 0.59548l-1.282-1.3994a0.42563 0.46788 0 0 0-0.61008 0 0.42563 0.46788 0 0 0 0 0.67063l1.126 1.2392a5.1464 5.6571 0 0 0-2.1063 4.5654h10.319c0-1.8815-0.83454-3.5446-2.1243-4.5753m-4.878 2.5493h-0.73648v-0.80958h0.73648zm4.4228 0h-0.73777v-0.80958h0.73777z" fill="#fff" opacity=".75" stroke-width="1.3523"/>
  <g transform="translate(0 -5.5643)" alignment-baseline="middle" fill="#fafafa" font-family="Lato" font-weight="bold" text-anchor="middle">

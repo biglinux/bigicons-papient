@@ -1,4 +1,4 @@
-<svg width="24" height="24" fill="none" version="1.1" xmlns="http://www.w3.org/2000/svg">
+<svg viewBox="0 0 24 24" width="512" height="512" fill="none" version="1.1" xmlns="http://www.w3.org/2000/svg">
  <rect x="1.4307" y="2.1239" width="21.138" height="19.752" rx="2.7062" fill="url(#a)" opacity=".9" stroke="#808080" stroke-opacity=".2" vector-effect="non-scaling-stroke" style="-inkscape-stroke:hairline;fill:url(#a);stroke-width:.92882"/>
  <g transform="matrix(.80214 0 0 .80214 5.6637 5.6371)" style="fill:#ffffff">
   <path class="ColorScheme-Text" d="M8.996 2v11.012H10V13h2c1.662 0 3-1.338 3-3s-1.338-3-3-3h-2V2zM2 4v1.004h2V5c1.108 0 2 .892 2 2H4c-1.662 0-3 1.338-3 3s1.338 3 3 3h2v.023h1.004V7H7c0-1.662-1.338-3-3-3zm2 4h2v4H4c-1.108 0-2-.892-2-2s.892-2 2-2m6 0h2c1.108 0 2 .892 2 2s-.892 2-2 2h-2z" style="fill:#ffffff"/>

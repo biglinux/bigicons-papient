@@ -1,4 +1,4 @@
-<svg width="24" height="24" fill="none" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg viewBox="0 0 24 24" width="512" height="512" fill="none" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
  <rect x="1.4307" y="2.1239" width="21.138" height="19.752" rx="2.7062" fill="url(#a)" opacity=".9" stroke="#808080" stroke-opacity=".2" vector-effect="non-scaling-stroke" style="-inkscape-stroke:hairline;fill:url(#linearGradient3);opacity:1;stroke-width:.92882"/>
  <defs>
   <radialGradient id="a" cx="0" cy="0" r="1" gradientTransform="matrix(0 22 -22 0 12 1)" gradientUnits="userSpaceOnUse">

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="24" height="24" fill="none" version="1.1" xmlns="http://www.w3.org/2000/svg">
+<svg viewBox="0 0 24 24" width="512" height="512" fill="none" version="1.1" xmlns="http://www.w3.org/2000/svg">
  <rect x="1" y="1" width="22" height="22" rx="6.6" fill="url(#a)" opacity=".9" stroke="gray" stroke-opacity=".2" vector-effect="non-scaling-stroke" style="-inkscape-stroke:hairline"/>
  <g transform="matrix(.86739 0 0 .86739 1.5913 1.7013)">
   <path d="m7.153 13.922v-4.307h1.077l1.346 1.682 1.346-1.682h1.078v4.307h-1.077v-2.625l-1.347 1.683-1.346-1.683v2.625zm8.077 0-1.614-2.154h1.076v-2.153h1.077v2.153h1.077z" fill="#f4f4f4"  opacity=".8"/>

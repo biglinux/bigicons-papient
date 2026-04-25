@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="24" height="24" fill="none" version="1.1" xmlns="http://www.w3.org/2000/svg">
+<svg viewBox="0 0 24 24" width="512" height="512" fill="none" version="1.1" xmlns="http://www.w3.org/2000/svg">
  <rect x="1" y="1" width="22" height="22" rx="6.6" fill="url(#a)" opacity=".9" stroke="gray" stroke-opacity=".2" vector-effect="non-scaling-stroke" style="-inkscape-stroke:hairline"/>
  <path d="m-34.281 16.579v0.83606c0 1.8527 1.4915 3.3442 3.3442 3.3442h15.049c1.8527 0 3.3442-1.4915 3.3442-3.3442v-0.83606c0 1.8527-1.4915 3.3442-3.3442 3.3442h-15.049c-1.8527 0-3.3442-1.4915-3.3442-3.3442z" fill-opacity=".19862" fill-rule="evenodd" stroke-linecap="square" stroke-width=".83606"/>
  <path d="m-20.068-5.995h1.1705l6.3541 6.3541v1.1705z" fill-opacity=".20149" fill-rule="evenodd" stroke-linecap="square" stroke-width=".83606"/>

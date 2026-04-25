@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="24" height="24" fill="none" version="1.1" xmlns="http://www.w3.org/2000/svg">
+<svg viewBox="0 0 24 24" width="512" height="512" fill="none" version="1.1" xmlns="http://www.w3.org/2000/svg">
  <rect x="1" y="1" width="22" height="22" rx="6.6" fill="url(#a)" opacity=".9" stroke="gray" stroke-opacity=".2" vector-effect="non-scaling-stroke" style="-inkscape-stroke:hairline"/>
  <path d="m11.941 10.029-0.4539 0.58533-0.72027-0.16414-0.19511 0.71267-0.72845 0.12501 0.092296 0.73312-0.62505 0.39431 0.36686 0.64258-0.42761 0.60286 0.58416 0.45272-0.16298 0.72085 0.71267 0.19452 0.12501 0.72845 0.28507-0.03622v3.6545l1.6135-1.1742 1.6135 1.1742v-3.453l0.03446 0.0082 0.19511-0.71267 0.72845-0.1256-0.09347-0.73312 0.62622-0.39373-0.36686-0.64258 0.42644-0.60344-0.58299-0.45331 0.16298-0.7203-0.71267-0.19511-0.12501-0.72786-0.73312 0.0923-0.39431-0.62505-0.64258 0.36568-0.60169-0.42702zm0.46967 1.513a1.756 1.756 0 1 1 0 3.512 1.7563 1.7563 0 0 1 0-3.5126z" clip-rule="evenodd" fill="#fafafa" fill-rule="evenodd" stroke-width=".58416"/>
  <g transform="matrix(.88121 0 0 .88121 -2.4959 -1.154)" alignment-baseline="middle" fill="#fafafa" font-family="Lato" font-weight="bold" opacity=".9">

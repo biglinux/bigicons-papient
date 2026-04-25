@@ -1,4 +1,4 @@
-<svg width="24" height="24" fill="none" version="1.1" xmlns="http://www.w3.org/2000/svg">
+<svg viewBox="0 0 24 24" width="512" height="512" fill="none" version="1.1" xmlns="http://www.w3.org/2000/svg">
  <rect x="1.4307" y="2.1239" width="21.138" height="19.752" rx="2.7062" fill="url(#a)" opacity=".9" stroke="#808080" stroke-opacity=".2" vector-effect="non-scaling-stroke" style="-inkscape-stroke:hairline;fill:url(#a);stroke-width:.92882"/>
  <g transform="matrix(.6835 0 0 .6835 4.4816 4.4816)" style="fill:#ffffff">
   <path d="m8.4307 8.1461v7.7078l5.1385-3.8539z" style="fill:url(#linearGradient8);stroke-width:1.2846"/>
