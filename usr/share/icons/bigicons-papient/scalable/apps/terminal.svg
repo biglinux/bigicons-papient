@@ -1,6 +1,6 @@
-<svg viewBox="0 0 24 24" width="512" height="512" fill="none" version="1.1" xmlns="http://www.w3.org/2000/svg">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="512" height="512" fill="none" version="1.1">
  <rect x="1.4307" y="2.1239" width="21.138" height="19.752" rx="2.7062" fill="url(#a)" opacity=".9" stroke="#808080" stroke-opacity=".2" vector-effect="non-scaling-stroke" style="-inkscape-stroke:hairline;fill:url(#a);stroke-width:.92882"/>
- <text id="labelText" x="12" y="15.5" alignment-baseline="middle" text-anchor="middle" style="fill:#c0fff5;font-family:Sans;font-size:11px;letter-spacing:.5px;text-anchor:middle"><tspan>#_</tspan></text>
+ <path d="m 11.034999,10.704 -0.341,1.76 h 1.507 v 0.737 h -1.65 l -0.451,2.299 H 9.3189992 l 0.451,-2.299 h -1.573 l -0.429,2.299 h -0.77 l 0.418,-2.299 h -1.386 v -0.737 h 1.529 l 0.352,-1.76 h -1.474 V 9.978 h 1.606 l 0.44,-2.332 h 0.792 l -0.44,2.332 h 1.5839998 l 0.44,-2.332 h 0.759 l -0.44,2.332 h 1.397 v 0.726 z m -2.6949998,1.76 h 1.573 l 0.3409998,-1.76 H 8.6809992 Z m 9.9269988,4.73 h -4.928 V 16.49 h 4.928 z" style="font-size:11px;font-family:Sans;letter-spacing:0.5px;text-anchor:middle;fill:#c0fff5" aria-label="#_" id="labelText"/>
  <defs>
   <linearGradient id="a" x2="0" y2="1" gradientTransform="scale(22)" gradientUnits="userSpaceOnUse">
    <stop style="stop-color:#a7ded5" offset=".2"/>

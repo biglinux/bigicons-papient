@@ -1,4 +1,4 @@
-<svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" width="512" height="512">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="512" height="512">
 <defs>
 <linearGradient id="a" x1="12" x2="12" y1=".855" y2="23.145" gradientUnits="userSpaceOnUse">
 <stop offset="0" style="stop-color:#e5989e"/>
@@ -7,5 +7,5 @@
 </defs>
 <rect width="22" height="22" x="1" y="1" opacity="0.85" fill="url(#a)" rx="6.6"/>
 <path fill="#fafafa" d="M5.596 15.377v3.575c0 .152.123.275.275.275h1.65a.274.274 0 0 0 .275-.275v-3.575zm.55 2.2h1.1v1.1h-1.1zm.55-16.5v1.1h1.1v-1.1zm0 1.1h-1.1v1.1h1.1zm0 1.1v1.1h1.1v-1.1zm0 1.1h-1.1v1.1h1.1zm0 1.1v1.1h1.1v-1.1zm0 1.1h-1.1v1.1h1.1zm0 1.1v1.1h1.1v-1.1zm0 1.1h-1.1v1.1h1.1zm0 1.1v1.1h1.1v-1.1zm0 1.1h-1.1v1.1h1.1zm0 1.1v1.1h1.1v-1.1zm0 1.1h-1.1v1.1h1.1zm0 1.1v1.1h1.1v-1.1z"/>
-<text x="15.298" y="13.787" alignment-baseline="middle" style="fill:#fafafa;font-family:Sans;font-size:5.6566px;letter-spacing:.5px;text-anchor:middle" text-anchor="middle"><tspan style="font-family:Sans;font-size:6.6667px;font-variant-caps:normal;font-variant-east-asian:normal;font-variant-ligatures:normal;font-variant-numeric:normal;letter-spacing:.5px">gz</tspan></text>
+<path d="m 13.264661,10.146982 q 0.353335,0 0.633337,0.133334 0.286668,0.133334 0.486669,0.406668 H 14.418 l 0.08,-0.473335 H 14.96467 V 13.847 q 0,0.76667 -0.393336,1.153339 -0.386668,0.386669 -1.206672,0.386669 -0.786671,0 -1.286673,-0.226668 v -0.540003 q 0.526669,0.280002 1.320006,0.280002 0.460002,0 0.720004,-0.273335 0.266668,-0.266668 0.266668,-0.733337 v -0.140001 q 0,-0.08 0.0067,-0.226668 0.0067,-0.153334 0.01333,-0.213334 H 14.378 q -0.360002,0.540003 -1.106672,0.540003 -0.693337,0 -1.086672,-0.486669 -0.386669,-0.486669 -0.386669,-1.360007 0,-0.853338 0.386669,-1.35334 0.393335,-0.506669 1.080005,-0.506669 z m 0.08,0.493335 q -0.446669,0 -0.693337,0.360002 -0.246668,0.353335 -0.246668,1.013339 0,0.660003 0.240001,1.013338 0.246668,0.346668 0.713337,0.346668 0.540003,0 0.786671,-0.286668 0.246667,-0.293335 0.246667,-0.940004 v -0.140001 q 0,-0.733337 -0.253334,-1.046672 -0.253335,-0.320002 -0.793337,-0.320002 z M 18.904685,13.787 h -2.613346 v -0.386669 l 1.92001,-2.733347 h -1.806676 v -0.453335 h 2.453345 v 0.440002 l -1.893342,2.680013 h 1.940009 z" style="font-size:6.6667px;font-family:Sans;letter-spacing:0.5px;text-anchor:middle;fill:#fafafa" aria-label="gz"/>
 </svg>

@@ -1,11 +1,11 @@
-<svg viewBox="0 0 24 24" width="512" height="512" fill="none" version="1.1" xmlns="http://www.w3.org/2000/svg">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="512" height="512" fill="none" version="1.1">
  <rect x="1" y="1" width="22" height="22" rx="6.6" fill="url(#a)" opacity="0.9" style="-inkscape-stroke:hairline;fill:url(#a);stroke-opacity:.2;stroke:gray;vector-effect:non-scaling-stroke"/>
- <text id="labelText" x="12" y="16" text-anchor="middle" alignment-baseline="middle" style="font-size:8px;font-family:Sans;letter-spacing:0.5px;text-anchor:middle;fill:#db713b"><tspan>SQL</tspan></text>
+ <path d="m 8.0999996,14.472 q 0,0.76 -0.552,1.184 -0.552,0.424 -1.488,0.424 -0.48,0 -0.888,-0.072 -0.408,-0.072 -0.68,-0.2 V 15.12 q 0.288,0.128 0.712,0.232 0.432,0.104 0.888,0.104 0.64,0 0.96,-0.248 0.328,-0.248 0.328,-0.672 0,-0.28 -0.12,-0.472 -0.12,-0.192 -0.416,-0.352 -0.288,-0.168 -0.808,-0.352 -0.728,-0.264 -1.104,-0.648 -0.368,-0.384 -0.368,-1.048 0,-0.456 0.232,-0.776 0.232,-0.328 0.64,-0.504 0.416,-0.176 0.952,-0.176 0.472,0 0.864,0.088 0.392,0.088 0.712,0.232 l -0.224,0.616 q -0.296,-0.128 -0.648,-0.216 -0.344,-0.088 -0.72,-0.088 -0.536,0 -0.808,0.232 -0.272,0.224 -0.272,0.6 0,0.288 0.12,0.48 0.12,0.192 0.392,0.344 0.272,0.152 0.736,0.328 0.504,0.184 0.848,0.4 0.352,0.208 0.528,0.504 0.184,0.296 0.184,0.744 z m 6.6359984,-1.336 q 0,1.048 -0.424,1.784 -0.416,0.736 -1.24,1.016 l 1.368,1.424 h -1.032 l -1.104,-1.288 q -0.048,0 -0.104,0 -0.048,0.008 -0.096,0.008 -0.888,0 -1.48,-0.368 -0.584,-0.368 -0.8720001,-1.032 -0.288,-0.664 -0.288,-1.552 0,-0.88 0.288,-1.536 0.2880001,-0.656 0.8720001,-1.024 0.592,-0.368 1.488,-0.368 0.856,0 1.44,0.368 0.584,0.36 0.88,1.024 0.304,0.656 0.304,1.544 z m -4.512,0 q 0,1.08 0.456,1.704 0.456,0.616 1.424,0.616 0.976,0 1.424,-0.616 0.448,-0.624 0.448,-1.704 0,-1.08 -0.448,-1.688 -0.448,-0.616 -1.416,-0.616 -0.968,0 -1.432,0.616 -0.456,0.608 -0.456,1.688 z M 16.499999,16 v -5.712 h 0.72 v 5.072 h 2.496 V 16 Z" style="font-size:8px;font-family:Sans;letter-spacing:0.5px;text-anchor:middle;fill:#db713b" aria-label="SQL" id="labelText"/>
  <defs>
   <linearGradient id="a" x1=".05" x2="1" y1="0" y2="1" gradientTransform="scale(22)" gradientUnits="userSpaceOnUse">
-   <stop  style="stop-color:#db713b" offset="0.2"/>
-   <stop  style="stop-color:#fff" offset="0.205"/>
-   <stop  style="stop-color:#dadada" offset="1"/>
+   <stop style="stop-color:#db713b" offset="0.2"/>
+   <stop style="stop-color:#fff" offset="0.205"/>
+   <stop style="stop-color:#dadada" offset="1"/>
   </linearGradient>
  </defs>
 </svg>
