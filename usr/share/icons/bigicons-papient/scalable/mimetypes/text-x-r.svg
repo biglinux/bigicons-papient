@@ -1,11 +1,11 @@
-<svg viewBox="0 0 24 24" width="512" height="512" fill="none" version="1.1" xmlns="http://www.w3.org/2000/svg">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="512" height="512" fill="none" version="1.1">
  <rect x="1" y="1" width="22" height="22" rx="6.6" fill="url(#a)" opacity="0.9" style="-inkscape-stroke:hairline;fill:url(#a);stroke-opacity:.2;stroke:gray;vector-effect:non-scaling-stroke"/>
- <text id="labelText" x="12" y="18" text-anchor="middle" alignment-baseline="middle" style="font-size:15px;font-family:Sans;letter-spacing:0.5px;text-anchor:middle;fill:#3F51B5"><tspan>R</tspan></text>
+ <path d="m 11.745002,7.29 q 1.995,0 2.94,0.765 0.96,0.75 0.96,2.28 0,0.855 -0.315,1.425 -0.315,0.57 -0.81,0.915 -0.48,0.33 -1.02,0.525 l 2.94,4.8 h -1.575 l -2.595,-4.425 h -2.13 V 18 H 8.7900019 V 7.29 Z m -0.075,1.17 h -1.53 v 3.975 h 1.605 q 1.305,0 1.905,-0.51 0.6,-0.525 0.6,-1.53 0,-1.05 -0.63,-1.485 -0.63,-0.45 -1.95,-0.45 z" style="font-size:15px;font-family:Sans;letter-spacing:0.5px;text-anchor:middle;fill:#3f51b5" aria-label="R" id="labelText"/>
  <defs>
   <linearGradient id="a" x1=".05" x2="1" y1="0" y2="1" gradientTransform="scale(22)" gradientUnits="userSpaceOnUse">
-   <stop  style="stop-color:#3F51B5" offset="0.2"/>
-   <stop  style="stop-color:#fff" offset="0.205"/>
-   <stop  style="stop-color:#dadada" offset="1"/>
+   <stop style="stop-color:#3F51B5" offset="0.2"/>
+   <stop style="stop-color:#fff" offset="0.205"/>
+   <stop style="stop-color:#dadada" offset="1"/>
   </linearGradient>
  </defs>
 </svg>

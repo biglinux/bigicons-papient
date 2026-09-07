@@ -1,11 +1,11 @@
-<svg viewBox="0 0 24 24" width="512" height="512" fill="none" version="1.1" xmlns="http://www.w3.org/2000/svg">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="512" height="512" fill="none" version="1.1">
  <rect x="1" y="1" width="22" height="22" rx="6.6" fill="url(#a)" opacity="0.9" style="-inkscape-stroke:hairline;fill:url(#a);stroke-opacity:.2;stroke:gray;vector-effect:non-scaling-stroke"/>
- <text id="labelText" x="12" y="18" text-anchor="middle" alignment-baseline="middle" style="font-size:15px;font-family:Sans;letter-spacing:0.5px;text-anchor:middle;fill:#E6446D"><tspan>P</tspan></text>
+ <path d="m 11.752503,7.29 q 2.1,0 3.06,0.825 0.96,0.825 0.96,2.325 0,0.885 -0.405,1.665 -0.39,0.765 -1.335,1.245 -0.93,0.48 -2.535,0.48 h -1.23 V 18 H 8.9175034 V 7.29 Z m -0.12,1.155 h -1.365 v 4.23 h 1.08 q 1.53,0 2.28,-0.495 0.75,-0.495 0.75,-1.68 0,-1.035 -0.66,-1.545 -0.66,-0.51 -2.085,-0.51 z" style="font-size:15px;font-family:Sans;letter-spacing:0.5px;text-anchor:middle;fill:#e6446d" aria-label="P" id="labelText"/>
  <defs>
   <linearGradient id="a" x1=".05" x2="1" y1="0" y2="1" gradientTransform="scale(22)" gradientUnits="userSpaceOnUse">
-   <stop  style="stop-color:#E6446D" offset="0.2"/>
-   <stop  style="stop-color:#fff" offset="0.205"/>
-   <stop  style="stop-color:#dadada" offset="1"/>
+   <stop style="stop-color:#E6446D" offset="0.2"/>
+   <stop style="stop-color:#fff" offset="0.205"/>
+   <stop style="stop-color:#dadada" offset="1"/>
   </linearGradient>
  </defs>
 </svg>

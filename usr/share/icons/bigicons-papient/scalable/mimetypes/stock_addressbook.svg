@@ -1,12 +1,12 @@
-<svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" width="512" height="512" fill="none">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="512" height="512" fill="none">
  <rect x="1" y="1" width="22" height="22" rx="6.6" fill="url(#a)" opacity="0.9" style="-inkscape-stroke:hairline;fill:url(#a);stroke-opacity:.2;stroke:gray;vector-effect:non-scaling-stroke"/>
-dasharray:none;stroke:gray;stroke-opacity:.2"/>
- <text id="labelText" x="12" y="17" text-anchor="middle" alignment-baseline="middle" style="font-size:15px;font-family:Sans;letter-spacing:0.5px;text-anchor:middle;fill:#ffffff"><tspan>@</tspan></text>
+dasharray:none;stroke:gray;stroke-opacity:.2"/&gt;
+ <path d="m 17.872499,11.645 q 0,0.69 -0.165,1.35 -0.15,0.66 -0.48,1.2 -0.33,0.525 -0.81,0.855 -0.48,0.315 -1.14,0.315 -0.69,0 -1.095,-0.39 -0.39,-0.405 -0.48,-0.915 h -0.075 q -0.27,0.555 -0.795,0.93 -0.525,0.375 -1.32,0.375 -1.14,0 -1.7700003,-0.765 -0.615,-0.765 -0.615,-2.025 0,-0.99 0.39,-1.74 0.39,-0.765 1.0950003,-1.2 0.72,-0.435 1.695,-0.435 0.66,0 1.29,0.12 0.645,0.105 1.005,0.24 l -0.15,3.045 q -0.015,0.27 -0.015,0.39 0,0.105 0,0.15 0,0.78 0.27,1.035 0.285,0.255 0.66,0.255 0.465,0 0.78,-0.375 0.33,-0.39 0.495,-1.02 0.18,-0.645 0.18,-1.41 0,-1.395 -0.57,-2.355 -0.555,-0.975 -1.545,-1.485 -0.975,-0.51 -2.22,-0.51 -1.71,0 -2.8950003,0.705 -1.17,0.705 -1.785,1.95 -0.6,1.23 -0.6,2.82 0,2.22 1.17,3.405 1.17,1.185 3.3750003,1.185 0.915,0 1.74,-0.21 0.84,-0.195 1.485,-0.435 v 1.02 q -0.645,0.27 -1.455,0.435 -0.795,0.18 -1.77,0.18 -1.7700003,0 -3.0300003,-0.66 -1.26,-0.66 -1.935,-1.89 -0.66,-1.245 -0.66,-2.985 0,-1.395 0.435,-2.58 0.435,-1.2 1.26,-2.07 0.825,-0.885 1.995,-1.365 1.1850003,-0.495 2.6700003,-0.495 1.56,0 2.775,0.645 1.215,0.645 1.905,1.845 0.705,1.2 0.705,2.865 z m -7.575,0.96 q 0,0.96 0.375,1.395 0.39,0.435 1.035,0.435 0.84,0 1.2,-0.63 0.375,-0.63 0.435,-1.635 l 0.09,-1.875 q -0.195,-0.06 -0.495,-0.105 -0.3,-0.045 -0.615,-0.045 -0.735,0 -1.185,0.36 -0.45,0.36 -0.645,0.93 -0.195,0.555 -0.195,1.17 z" style="font-size:15px;font-family:Sans;letter-spacing:0.5px;text-anchor:middle;fill:#ffffff" aria-label="@" id="labelText"/>
 <defs>
   <linearGradient id="a" x1=".05" x2="1" y1="0" y2="1" gradientTransform="scale(22)" gradientUnits="userSpaceOnUse">
-   <stop  style="stop-color:#61a1cc" offset="0.2"/>
-   <stop  style="stop-color:#85C1EA" offset="0.205"/>
-   <stop  style="stop-color:#3C90C9" offset="1"/>
+   <stop style="stop-color:#61a1cc" offset="0.2"/>
+   <stop style="stop-color:#85C1EA" offset="0.205"/>
+   <stop style="stop-color:#3C90C9" offset="1"/>
   </linearGradient>
 </defs>
 </svg>

@@ -1,11 +1,11 @@
-<svg viewBox="0 0 24 24" width="512" height="512" fill="none" version="1.1" xmlns="http://www.w3.org/2000/svg">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="512" height="512" fill="none" version="1.1">
  <rect x="1" y="1" width="22" height="22" rx="6.6" fill="url(#a)" opacity="0.9" style="-inkscape-stroke:hairline;fill:url(#a);stroke-opacity:.2;stroke:gray;vector-effect:non-scaling-stroke"/>
- <text id="labelText" x="12" y="16.5" text-anchor="middle" alignment-baseline="middle" style="font-size:10px;font-family:Sans;letter-spacing:0.5px;text-anchor:middle;fill:#1874bc"><tspan>TS</tspan></text>
+ <path d="m 9.4550023,16.5 h -0.9 v -6.35 h -2.23 V 9.36 h 5.3499997 v 0.79 H 9.4550023 Z M 17.305,14.59 q 0,0.95 -0.69,1.48 -0.69,0.53 -1.86,0.53 -0.6,0 -1.11,-0.09 -0.51,-0.09 -0.85,-0.25 V 15.4 q 0.36,0.16 0.89,0.29 0.54,0.13 1.11,0.13 0.8,0 1.2,-0.31 0.41,-0.31 0.41,-0.84 0,-0.35 -0.15,-0.59 -0.15,-0.24 -0.52,-0.44 -0.36,-0.21 -1.01,-0.44 -0.91,-0.33 -1.38,-0.81 -0.46,-0.48 -0.46,-1.31 0,-0.57 0.29,-0.97 0.29,-0.41 0.8,-0.63 0.52,-0.22 1.19,-0.22 0.59,0 1.08,0.11 0.49,0.11 0.89,0.29 l -0.28,0.77 q -0.37,-0.16 -0.81,-0.27 -0.43,-0.11 -0.9,-0.11 -0.67,0 -1.01,0.29 -0.34,0.28 -0.34,0.75 0,0.36 0.15,0.6 0.15,0.24 0.49,0.43 0.34,0.19 0.92,0.41 0.63,0.23 1.06,0.5 0.44,0.26 0.66,0.63 0.23,0.37 0.23,0.93 z" style="font-size:10px;font-family:Sans;letter-spacing:0.5px;text-anchor:middle;fill:#1874bc" aria-label="TS" id="labelText"/>
  <defs>
   <linearGradient id="a" x1=".05" x2="1" y1="0" y2="1" gradientTransform="scale(22)" gradientUnits="userSpaceOnUse">
-   <stop  style="stop-color:#1874bc" offset="0.2"/>
-   <stop  style="stop-color:#fff" offset="0.205"/>
-   <stop  style="stop-color:#dadada" offset="1"/>
+   <stop style="stop-color:#1874bc" offset="0.2"/>
+   <stop style="stop-color:#fff" offset="0.205"/>
+   <stop style="stop-color:#dadada" offset="1"/>
   </linearGradient>
  </defs>
 </svg>
