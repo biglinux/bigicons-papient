@@ -132,12 +132,21 @@ package() {
     ln -s 16x16 16x16@2x
     cd 16x16
     rm symbolic
-    ln -s ../../bigicons-papient/16x16/symbolic/ .
+    # The symbolic icons are drawn with fill:currentColor, so the light set
+    # serves both themes and there is no second copy to keep. It is copied
+    # rather than linked because not everything that reads an icon theme
+    # follows symbolic links: QAdwaitaDecorations, which draws the title bar
+    # of Qt applications on Wayland, walks the theme directory itself and
+    # skips links, so it found no window-close-symbolic here and fell back to
+    # its next theme - Breeze under a KDE platform theme. That is why the
+    # Calamares title bar came up with Breeze chevrons on the dark theme
+    # while every other Qt window kept the Adwaita buttons.
+    cp -Rf ../../bigicons-papient/16x16/symbolic symbolic
     cd ..
     ln -s 22x22 22x22@2x
     cd 22x22
     rm symbolic
-    ln -s ../../bigicons-papient/22x22/symbolic/ .
+    cp -Rf ../../bigicons-papient/22x22/symbolic symbolic
     cd ..
     ln -s 48x48 48x48@2x
     cd ../
