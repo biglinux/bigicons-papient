@@ -6,6 +6,7 @@ arch=('any')
 license=('GPL3')
 url="https://github.com/biglinux/$pkgname"
 provides=("$pkgname")
+makedepends=('git' 'python')
 source=("git+${url}.git")
 md5sums=('SKIP')
 if [ -e "${pkgname}.install" ];then
@@ -196,6 +197,13 @@ package() {
     #ln -sf view-media-playlist.svg open-menu-symbolic.svg
     #cd ../../../
 
+    # GTK 4 draws a "-symbolic" icon with its own SVG renderer, which ignores a
+    # transform written on a group: Papirus icons drawn that way came out empty
+    # or shifted (network-transmit-receive, night-light, software-update-available).
+    # The script moves each group's transform onto the shapes inside it, which
+    # draws the same picture everywhere else too.
+    python "${InternalDir}/pkgbuild/flatten-group-transforms.py" \
+        bigicons-papient bigicons-papient-dark bigicons-papient-light
 
     rm -R papirus-icon-theme
 }
